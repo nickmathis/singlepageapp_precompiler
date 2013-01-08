@@ -3,7 +3,11 @@ App.Views.Question = Backbone.View.extend({
    className: 'question',
    template: _.template($("#question-template").html()),
  
-    events: {
+   initialize: function() {
+      this.model.on("change", this.render, this);
+   },
+
+   events: {
        "click .voteup": "upVote",
        "click .votedown": "downVote"
     },
