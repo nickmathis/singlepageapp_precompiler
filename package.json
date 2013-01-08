@@ -1,12 +1,12 @@
 {
-  "name": "yourOverflow",
-  "version": "0.0.1",
-  "dependencies": {
-    "connect": ">= 1.9.2",
-    "other dependencies": ""
-  },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
-  }
+  "name": "yourOverflow",
+  "version": "0.0.1",
+  "dependencies": {
+    "connect": ">= 1.9.2",
+    "backbone.io": ">= 0.3.2"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
 }
